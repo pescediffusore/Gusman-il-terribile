@@ -4,7 +4,7 @@ Tanti auguri figlio di puttana
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>Regalo di Compleanno</title>
+    <title>Gusman</title>
     <style>
         body {
             display: flex;
@@ -23,12 +23,12 @@ Tanti auguri figlio di puttana
     </style>
 </head>
 <body>
-    <img id="gift" src="URL_DELL_IMMAGINE_DEL_PACCO" alt="Pacco Regalo" width="300">
+    <img id="gift" src="https://imgur.com/a/mQ1ZfsH alt="Pacco Regalo" width="300">
 
     <script>
         const gift = document.getElementById('gift');
-        const paccoSrc = 'URL_DELL_IMMAGINE_DEL_PACCO';
-        const regaloSrc = 'URL_DELL_IMMAGINE_DEL_REGALO';
+        const paccoSrc = 'https://imgur.com/a/mQ1ZfsH';
+        const regaloSrc = 'https://imgur.com/a/vTv7AQJ';
 
         gift.addEventListener('click', () => {
             gift.src = regaloSrc;
